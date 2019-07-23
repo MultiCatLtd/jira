@@ -142,9 +142,6 @@ EXPOSE 8080
 ENTRYPOINT ["/sbin/tini","--","/usr/local/share/atlassian/docker-entrypoint.sh"]
 CMD ["jira"]
 
-# This is set by the build script. Keep this at the end of the Dockerfile to preserve the build cache
-ARG BUILD_DATE
-
 # Image Metadata
 LABEL maintainer="Jonathan Hult <teamatldocker@JonathanHult.com>"                                  \
     org.opencontainers.image.authors="Jonathan Hult <teamatldocker@JonathanHult.com>"              \
@@ -152,5 +149,4 @@ LABEL maintainer="Jonathan Hult <teamatldocker@JonathanHult.com>"               
     org.opencontainers.image.title=$JIRA_PRODUCT                                                   \
     org.opencontainers.image.description="$JIRA_PRODUCT $JIRA_VERSION running on Alpine Linux"     \
     org.opencontainers.image.source="https://github.com/teamatldocker/jira/"                       \
-    org.opencontainers.image.created=$BUILD_DATE                                                   \
     org.opencontainers.image.version=$JIRA_VERSION
