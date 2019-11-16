@@ -9,9 +9,9 @@ Run Jira Core, Jira Software, or Jira Service Desk in a Docker container.
 
 | Product | Version | Tags |
 |---------|---------|-------|
-| [Jira Software](https://www.atlassian.com/software/jira) | 8.5.0 | 8.5.0 |
-| [Jira Service Desk](https://www.atlassian.com/software/jira/service-desk) | 4.5.0 | 4.5.0 |
-| [Jira Core](https://www.atlassian.com/software/jira/core) | 8.5.0 | 8.5.0 |
+| [Jira Software](https://www.atlassian.com/software/jira) | 8.5.1 | 8.5.1 |
+| [Jira Service Desk](https://www.atlassian.com/software/jira/service-desk) | 4.5.1 | 4.5.1 |
+| [Jira Core](https://www.atlassian.com/software/jira/core) | 8.5.1 | 8.5.1 |
 
 ## You may also like
 
